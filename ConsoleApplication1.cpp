@@ -1,5 +1,4 @@
-﻿// ConsoleApplication1.cpp : Ten plik zawiera funkcję „main”. W nim rozpoczyna się i kończy wykonywanie programu.
-//
+
 
 #include <iostream>
 
@@ -7,7 +6,7 @@ using namespace std;
 
 int main()
 {
-	//deklaracja zmiennych
+
 
 	//int a;
 	//float a1, b, c = 12;
@@ -81,7 +80,7 @@ int main()
 	cout << "Podaj a:" , cin >> a;
 	cout << "Podaj b:" , cin >> b;
 
-	cout << "Operacje matematyczne: \n1.Suma \n2.Roznica \n3.Iloczyn \n4.Iloraz \n5.Twoj wybor:";
+	cout << "Operacje matematyczne: \1.Suma \2.Roznica \3.Iloczyn \4.Iloraz \5.Twoj wybor:";
 	cin >> wybor;
 
 	switch (wybor)
@@ -99,7 +98,7 @@ int main()
 	case 4:
 		if (b != 0)
 			cout << "Iloraz " << a << " / " << b << " = " << a / b << endl;
-		else cout << "Nie mozna dzielic przez 0!\n";
+		else cout << "Nie mozna dzielic przez 0\n";
 		break;
 	default:
 		cout << "Wybrano nieistniejaca operacje\n";
